@@ -1,0 +1,68 @@
+/* Use CSS variables to maintain clean and reusable values for a color scheme. */
+/* Use flexbox and media queries to create a responsive grid layout. */
+/* Each CSS snippet should have a card-like layout with the CSS syntax wrapped in an HTML pre element. */
+/* Each CSS snippet can easily be highlighted for copying on click using the CSS user-select property. */
+/* Must incorporate a background color using a CSS linear-gradient function. */
+/* Must incorporate a bit of animation using the CSS transition property. */
+/* You and your group can decide which CSS styles and colors you will use to design the application, but the app needs to be a responsive. Use the following images to gain an understanding of how the app should look at different screen sizes, from a layout perspective: */
+/* At size 992px and above, the app should resemble the following image: */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: antiquewhite;
+}
+
+header {
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+}
+
+nav {
+    text-align: center;
+    margin: 10px;
+    padding: 14px;
+}
+
+main {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+h1 {
+    font-size:xx-large;
+}
+
+h2 {
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+
+pre {
+    margin: 5%;
+    padding: 5px;
+    text-align: left;
+    background-color: blueviolet;
+}
+
+.card {
+    flex: 1 0 200px;
+    text-align: center;
+    margin: 10px;
+    border: 1px dashed white;
+}
